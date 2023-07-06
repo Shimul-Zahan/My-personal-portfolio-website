@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+/* Header part design */
+.header{
+    width: 100%;
+    height: 80px;
+    background: rgb(83, 80, 80);
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo .one , .three{
+    color: aquamarine;
+}
+
+/* searchbar */
+.searchbar{
+    height: 35px;
+    width: 250px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+}
+.searchbar input{
+    height: 35px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+.searchbar input::placeholder{
+    font-size: 1rem;
+}
+
+nav{
+    height: 80px;
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: azure;
+    font-size: 1.1rem;
+    transition: 0.3s ease-in-out;
+}
+.navbar ul li a.active{
+    color: aquamarine;
+}
+.navbar ul li a:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hero section */
+.hero{
+    margin: 0px 100px;
+}
+
+/* login-logout */
+.login-logout{
+    background: url("../Images/loginout.jpg")linear-gradient();
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+}
+.overlay{
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    opacity: 100;
+    z-index: 2;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+button{
+    margin: 25px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.3rem;
+    border-radius: 12px;
+}
+button:hover{
+    background: transparent;
+    transition: 0.3s ease-in-out;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.login-registration{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Hero part */
+.hero .my-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+    width: 100%;
+}
+/* My skills part */
+.my-skills{
+    width: 100%;
+    height: 100vh;
+    background: url("../Images/4683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    color: white;
+}
