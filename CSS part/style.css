@@ -83,6 +83,41 @@ nav{
     margin: 0px 100px;
 }
 
+/* About me start */
+.about-me{
+    height: 80vh;
+    width: 100%;
+    background:  rgba(99, 120, 140, 0.82);
+    /* margin: 0px 100px; */
+}
+.about-me-flex{
+    margin: 0px 100px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.my-name{
+    margin: 25px 70px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    width: 400px;
+    margin: 25px 70px;
+    color: white;
+}
+.left-part img{
+    border-radius: 50%;
+    /* box-shadow: 10px 20px 30px rgba(53, 50, 50, 0.8); */
+}
+
 /* login-logout */
 .login-logout{
     background: url("../Images/loginout.jpg")linear-gradient();
@@ -102,7 +137,7 @@ nav{
 .heading{
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 15px;
 }
 button{
@@ -141,6 +176,143 @@ button:hover{
     background: url("../Images/4683.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    margin: 0px 100px;
+    width: 500px;
+    height: 350px;
+    background: transparent;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: rgba(39,62,84,0.82);
+    box-shadow: 10px 20px 30px rgba(246, 243, 243, 0.8);
+}
+i{
+    font-size: 8rem;
+    color: orangered;
+    margin: 10px;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.progress{
+    height: 15px;
+    width: 60%;
+    background: black;
+    border-radius: 30px;
+    position: relative;
+}
+.progress::after{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 60%;
+    border-radius: 30px;
+    background: orangered;
+}
+
+/* Services part */
+.sevices{
+    background: url("../Images/services.webp");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.service-header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.service-card{
+    margin: 40px 100px;
+    width: 300px;
+    height: 260px;
+    background: transparent;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: rgba(39,62,84,0.82);
+    box-shadow: 10px 20px 30px rgba(94, 90, 102, 0.8);
+}
+
+
+/* Contact part */
+.contact{
+    height: 400px;
+    background: rgb(18, 17, 17);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adress{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+    color: white;
+
+}
+.links ul{
+    margin-top: 30px;
+}
+
+.links ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.contact-title-2{
+    text-align: left;
+    margin-left: -50px;
+}
+.contact-title-1{
+    text-align: left;
+    margin-left: -10px;
+}
+.contact-title-3{
+    text-align: left;
+    margin-left: -20px;
+}
+
+.details{
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .footer{
