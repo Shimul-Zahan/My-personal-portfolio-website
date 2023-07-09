@@ -195,10 +195,8 @@ button:hover{
     background: rgba(39,62,84,0.82);
     box-shadow: 10px 20px 30px rgba(246, 243, 243, 0.8);
 }
-i{
-    font-size: 8rem;
-    color: orangered;
-    margin: 10px;
+.icon img{
+    height: 200px;
 }
 .name{
     font-size: 2rem;
